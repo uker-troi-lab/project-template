@@ -1,0 +1,31 @@
+[project]
+name = "prpoject_template"
+version = "0.0.1"
+description = "troi-lab project template."
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+]
+exclude = [
+  "**/tests", "**/dist",
+  "**/templates", "**/_templates",
+  "**/images",  "**/_images",
+  "**/data",  "**/_data"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.commitizen]
+name = "cz_customize"
+
+[tool.commitizen.customize]
+change_type_order = ["BREAKING CHANGE", "feat", "fix", "refactor", "perf", "docs", "test", "ci", "build", "style", "chore"]
+commit_parser = "^((?P<change_type>feat|fix|refactor|perf|chore|test|ci|build|docs|style|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*)?"
+changelog_pattern = "^((BREAKING[\\-\\ ]CHANGE|\\w+)(\\(.+\\))?!?):"
+change_type_map = {"feat" = "New Features", "fix" = "Bug Fixes", "refactor" = "Refactor", "perf" = "Performance", "chore" = "Other changes", "test" = "Unit tests", "ci" = "CI", "build" = "Build", "docs" = "Documentation", "style" = "Style"}
