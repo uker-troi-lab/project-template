@@ -14,3 +14,4 @@ It includes:
 - Use [semantic versioning](https://semver.org/)
 - [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) your commits when incrementing versions or creating a new release
 - Regularly update your `CHANGELOG.md`: `cz ch --template _templates/CHANGELOG.md.j2`
+- This project template uses [poetry](https://python-poetry.org/) for dependency-management and python-packaging
