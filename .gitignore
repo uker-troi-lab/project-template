@@ -6,6 +6,8 @@
 *.json
 __pycache__
 cache
+.venv
+.coverage
 
 !.gitignore
 
