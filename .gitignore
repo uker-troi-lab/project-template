@@ -14,7 +14,7 @@ cache
 !CHANGELOG.md
 !/_templates/
 !/_templates/CHANGELOG.md.j2
-!poetry.lock
+!uv.lock
 !pyproject.toml
 
 !*.py
