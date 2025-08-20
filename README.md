@@ -16,6 +16,40 @@ To get started, run:
 pip install uv commitizen
 ```
 
+To install the project dependencies, run
+
+```bash
+uv pip install -r pyproject.toml
+```
+
+## For Developers
+
+Add packages to the `pyproject.toml` with
+
+```bash
+uv add pandas
+```
+
+Remove packages from the `pyproject.toml` with
+
+```bash
+uv remove pandas
+```
+
+Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
+
+```bash
+uv sync
+```
+
+Update the `uv.lock` file with
+
+Remove packages from the `pyproject.toml` with
+
+```bash
+uv lock
+```
+
 To generate a CHANGELOG.md, execute:
 
 ```bash
