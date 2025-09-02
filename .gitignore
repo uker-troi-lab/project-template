@@ -19,6 +19,9 @@ cache
 !uv.lock
 !pyproject.toml
 
+!/src/
+!/src/project_name
+
 !*.py
 
 dist/
