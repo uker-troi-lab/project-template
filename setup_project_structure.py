@@ -27,3 +27,20 @@ def setup_git_repos():
             # pull latest version
             LOG.info(f"'{_reponame}' already exists - pulling latest version.")
             os.system("cd " + git_path + " && git pull")
+    
+    LOG.info("\nInstalling 'uv' via pip.")
+    os.system('pip install uv')
+    
+    for _reponame in url_dict.keys():
+        _install_cmd = (
+            'cd '            
+            f'{os.path.join(_setup_root, _reponame)} && '
+            'uv pip install -r pyproject.toml"'
+        )
+        LOG.info(f"\nRepo '{_reponame}': installing dependencies from 'pyproject.toml'")
+        os.system(_install_cmd)
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    setup_git_repos()
