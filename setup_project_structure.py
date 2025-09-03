@@ -13,8 +13,9 @@ def setup_git_repos():
         "repo1": 'https://url-to-git-host.com/repo1.git',
         "repo2": 'https://url-to-git-host.com/repo2.git',
     }
+    _project_root = os.path.abspath(os.path.dirname(__file__))
     _setup_root = os.path.abspath(
-        os.path.join(os.path.abspath(os.path.dirname(__file__)), "../")
+        os.path.join(_project_root, "../")
     )
     LOG.info(f"setup_root: {_setup_root}")
     
@@ -27,7 +28,7 @@ def setup_git_repos():
             # pull latest version
             LOG.info(f"'{_reponame}' already exists - pulling latest version.")
             os.system("cd " + git_path + " && git pull")
-    
+
     LOG.info("\nInstalling 'uv' via pip.")
     os.system('pip install uv')
     
@@ -39,6 +40,10 @@ def setup_git_repos():
         )
         LOG.info(f"\nRepo '{_reponame}': installing dependencies from 'pyproject.toml'")
         os.system(_install_cmd)
+    
+    # now install 'pyproject.toml' from this repo
+    LOG.info(f"\nRepo '{_project_root}': installing dependencies from 'pyproject.toml'")
+    os.system('uv pip install -r pyproject.toml"')
 
 
 if __name__ == "__main__":
