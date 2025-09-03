@@ -5,19 +5,27 @@
 *.dcm
 *.json
 __pycache__
-cache
+*cache*
 .venv
 .coverage
+.ruff_cache
 
 !.gitignore
+!.pre-commit-config.yaml
+!.gitlab-ci.yml
+!/_templates/
+!/_templates/CHANGELOG.md.j2
 
 !LICENSE
 !README.md
 !CHANGELOG.md
-!/_templates/
-!/_templates/CHANGELOG.md.j2
+
+!run_tests.sh
+!create_changelog.sh
+
 !uv.lock
 !pyproject.toml
+!ruff.toml
 
 !/src/
 !/src/project_name

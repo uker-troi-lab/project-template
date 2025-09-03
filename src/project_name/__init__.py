@@ -4,9 +4,7 @@ import sys
 _project_root = os.path.abspath(
     os.path.join(os.path.abspath(os.path.dirname(__file__)), "../../")
 )
-_setup_root = os.path.abspath(
-    os.path.join(os.path.abspath(_project_root), "../")
-)
+_setup_root = os.path.abspath(os.path.join(os.path.abspath(_project_root), "../"))
 _project_relative_dependencies = ["repo1", "repo2"]
 _cur_path = sys.path
 for _p in _project_relative_dependencies:

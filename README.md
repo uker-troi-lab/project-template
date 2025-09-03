@@ -57,8 +57,21 @@ To generate a CHANGELOG.md, execute:
 cz ch --template _templates/CHANGELOG.md.j2 
 ```
 
+To run linter, execute:
+
+```bash
+uv run ruff check
+```
+
+To run code-formatter, execute:
+
+```bash
+uv run ruff format --diff
+```
+
 ## Best practices and further resources
 
+- Regularly run code-linter and code-formatter ([ruff](https://docs.astral.sh/ruff/)). To exclude lines from the linter, add `# noqa` to the end of the line.
 - Whenever possible, format your commit messages according to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) ([commitizen](https://commitizen-tools.github.io/commitizen/) can help you with that)
 - Use [semantic versioning](https://semver.org/)
 - [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) your commits when incrementing versions or creating a new release

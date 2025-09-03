@@ -1,0 +1,80 @@
+stages:
+  - unittest
+  - linter
+  - formatter
+
+variables:
+  UV_CACHE_DIR: .uv-cache
+  GIT_STRATEGY: fetch
+  GIT_CLEAN_FLAGS: none
+
+cache:
+  - key:
+      files:
+        - uv.lock
+    paths:
+      - $UV_CACHE_DIR
+
+
+.base_template:
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master" || $CI_COMMIT_BRANCH == "development"'
+      when: always
+    - if: '$CI_MERGE_REQUEST_ID'
+      when: always
+    - when: never
+
+  before_script:
+    - source /home/gitlab-runner/miniconda3/etc/profile.d/conda.sh
+    - conda create -n venv -y
+    - conda activate venv
+    - conda install pip -y
+    - pip install uv
+    - cd $CI_PROJECT_DIR
+    - uv sync --all-extras
+    - uv run ruff --version
+
+  after_script:
+    - source /home/gitlab-runner/miniconda3/etc/profile.d/conda.sh
+    - conda deactivate
+    - conda remove -n venv --all -y
+    - rm -rf /home/gitlab-runner/miniconda3/envs/venv
+
+
+.unittest_template:
+  extends: .base_template
+  script:
+    - cd tests
+    - uv run python -m coverage run -m unittest
+    - uv run coverage report
+    - uv cache prune --ci
+
+
+.linter_template:
+  extends: .base_template
+  script:
+    - uv run ruff check --exclude .uv-cache --output-format=gitlab > code-quality-report.json
+    - uv cache prune --ci
+  artifacts:
+    reports:
+      codequality: $CI_PROJECT_DIR/code-quality-report.json
+
+
+.formatter_template:
+  extends: .base_template
+  script:
+    - uv run ruff format --exclude .uv-cache --diff
+    - uv cache prune --ci
+
+
+unittest:
+  extends: .unittest_template
+  stage: unittest
+
+linter:
+  extends: .linter_template
+  stage: linter
+
+formatter:
+  extends: .formatter_template
+  stage: formatter
