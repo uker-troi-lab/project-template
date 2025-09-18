@@ -1,5 +1,9 @@
 ## Unreleased
 
+### CI
+
+- fixed gitlab-ci (5ddbc32)
+
 ### Documentation
 
 - updated readme (bba1b1d)
@@ -12,7 +16,7 @@
 
 ### Other changes
 
-- merged into main (a6458c6)
+- merged into main (ec24135)
 - enhanced script to also install current repo (569e347)
 - enhanced script to also install current repo (5ee051b)
 - updated setup.py (6b5ae52)

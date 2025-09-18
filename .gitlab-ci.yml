@@ -53,7 +53,7 @@ cache:
 .linter_template:
   extends: .base_template
   script:
-    - uv run ruff check --exclude .uv-cache --output-format=gitlab > code-quality-report.json
+    - uv run ruff check --config pyproject.toml --output-format=gitlab > code-quality-report.json
     - uv cache prune --ci
   artifacts:
     reports:
@@ -63,7 +63,7 @@ cache:
 .formatter_template:
   extends: .base_template
   script:
-    - uv run ruff format --exclude .uv-cache --diff
+    - uv run ruff format --config pyproject.toml --diff
     - uv cache prune --ci
 
 
