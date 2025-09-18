@@ -12,7 +12,9 @@
 
 ### Other changes
 
-- enhanced script to also install current repo (ed0d826)
+- merged into main (a6458c6)
+- enhanced script to also install current repo (569e347)
+- enhanced script to also install current repo (5ee051b)
 - updated setup.py (6b5ae52)
 - updated project structure template (894401f)
 - exclusions to gitignore (2c39c96)
