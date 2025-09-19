@@ -7,6 +7,7 @@
 
 ### Documentation
 
+- updated readme (b0a6180)
 - updated readme (bba1b1d)
 - mentioning poetry in readme (2ca651d)
 
@@ -17,7 +18,7 @@
 
 ### Other changes
 
-- merged into main (1eded49)
+- merged into main (5cc9156)
 - why is .commit not removed? (422c7d7)
 - fixed script execution (b591881)
 - why is .commit not removed? (7d6fb9d)

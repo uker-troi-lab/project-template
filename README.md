@@ -8,21 +8,13 @@ It includes:
 - `project.toml`: basic project metadata, including [commitizen](https://commitizen-tools.github.io/commitizen/) rules for formatting the `CHANGELOG.md`.
 - `_templates/CHANGELOG.md.j2`: `CHANGELOG.md` template file.
 
-## Setup
+## Development Setup
 
-To get started, run:
-
-```bash
-pip install uv commitizen
-```
-
-To install the project dependencies, run
+To install all required project dependencies, run
 
 ```bash
 python scripts/dev_setup.py
 ```
-
-## For Developers
 
 Add packages to the `pyproject.toml` with
 
