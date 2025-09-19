@@ -2,7 +2,8 @@
 
 ### CI
 
-- fixed gitlab-ci (5ddbc32)
+- triger for pre-commit (f6846db)
+- fixed gitlab-ci (44ebca9)
 
 ### Documentation
 
@@ -16,6 +17,8 @@
 
 ### Other changes
 
+- why is .commit not removed? (422c7d7)
+- updated project structure (d9d5e70)
 - merged into main (ec24135)
 - enhanced script to also install current repo (569e347)
 - enhanced script to also install current repo (5ee051b)
