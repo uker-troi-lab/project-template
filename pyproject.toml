@@ -59,7 +59,9 @@ docstring-code-format = true
 name = "cz_customize"
 
 [tool.commitizen.customize]
-change_type_order = ["BREAKING CHANGE", "feat", "fix", "refactor", "perf", "docs", "test", "ci", "build", "style", "chore"]
-commit_parser = "^((?P<change_type>feat|fix|refactor|perf|chore|test|ci|build|docs|style|BREAKING CHANGE)(?:\\((?P<scope>[^()\\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*)?"
+schema = "<type>: <body>"
+schema_pattern = "(feat|fix|refactor|perf|docs|test|ci|build|style|chore)!?:(\\s.*)"
+change_type_order = ["feat", "fix", "refactor", "perf", "docs", "test", "ci", "build", "style", "chore"]
+commit_parser = "^((?P<change_type>feat|fix|refactor|perf|chore|test|ci|build|docs|style)(?:\\((?P<scope>[^()\\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*)?"
 changelog_pattern = "^((BREAKING[\\-\\ ]CHANGE|\\w+)(\\(.+\\))?!?):"
 change_type_map = {"feat" = "New Features", "fix" = "Bug Fixes", "refactor" = "Refactor", "perf" = "Performance", "chore" = "Other changes", "test" = "Unit tests", "ci" = "CI", "build" = "Build", "docs" = "Documentation", "style" = "Style"}

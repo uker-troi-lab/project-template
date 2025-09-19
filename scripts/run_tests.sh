@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# move one dir-level back to "../scripts"
+cd ..
+
 function uv_init {
     uv lock
     uv pip install -r pyproject.toml
@@ -19,8 +22,8 @@ function code_formatter {
 }
 
 printf "Running unittests\n\n"
-cd ./tests
 uv_init
+cd ./tests
 test_code
 
 printf "Running linter\n\n"

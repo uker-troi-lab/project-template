@@ -1,10 +1,13 @@
 #!/bin/bash
 
+# move one dir-level back to "../scripts"
+cd ..
+
 # https://stackoverflow.com/a/28972460
 if [ -a .commit ]
     then
     rm .commit
-    cz ch --template _templates/CHANGELOG.md.j2
+    cz ch --template scripts/templates/CHANGELOG.md.j2
     git add CHANGELOG.md
     # --no-verify skips pre-commit and commit-msg hooks, but not
     # post-commit; this is why creating .commit file in commit-msg

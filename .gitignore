@@ -13,15 +13,16 @@ __pycache__
 !.gitignore
 !.pre-commit-config.yaml
 !.gitlab-ci.yml
-!/_templates/
-!/_templates/CHANGELOG.md.j2
+!/scripts/
+!/scripts/*.sh
+!/scripts/*.py
+!/scripts/templates/
+/scripts/templates/*
+!/scripts/templates/CHANGELOG.md.j2
 
 !LICENSE
 !README.md
 !CHANGELOG.md
-
-!run_tests.sh
-!create_changelog.sh
 
 !uv.lock
 !pyproject.toml

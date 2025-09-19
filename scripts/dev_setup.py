@@ -12,7 +12,9 @@ import subprocess
 LOG = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-_project_root = os.path.abspath(os.path.dirname(__file__))
+_project_root = os.path.abspath(
+    os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
+)
 
 
 def create_conda_env(envname: str, pyversion: str = "3.12"):

@@ -3,8 +3,12 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
-    - id: end-of-file-fixer
     - id: check-added-large-files
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+      args: [ --markdown-linebreak-ext=md ]
+    - id: check-toml
+    - id: detect-private-key
 
   - repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.8.18
@@ -28,6 +32,7 @@ repos:
       - id: commitizen
         stages: [commit-msg]
 
+  # prepare post-commit stage
   - repo: local
     hooks:
       - id: changelog-helper
@@ -36,13 +41,13 @@ repos:
         entry: bash -c "touch .commit"
         language: system
         stages: [commit-msg]
-  
+
   # update changelog after commit with --no-verify to avoid endless loop
   - repo: local
     hooks:
       - id: changelog
         name: create-changelog
         always_run: true
-        entry: create_changelog.sh
+        entry: scripts/create_changelog.sh
         language: script
         stages: [post-commit]
