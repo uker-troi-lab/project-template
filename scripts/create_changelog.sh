@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# change dir back to "../scripts"!
-cd ..
-
 # https://stackoverflow.com/a/28972460
 if [ -a .commit ]
     then

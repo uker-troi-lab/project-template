@@ -17,7 +17,8 @@
 
 ### Other changes
 
-- why is .commit not removed? (422c7d7)
+- fixed script execution (bd5b85f)
+- why is .commit not removed? (7d6fb9d)
 - updated project structure (d9d5e70)
 - merged into main (ec24135)
 - enhanced script to also install current repo (569e347)

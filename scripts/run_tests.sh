@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# move one dir-level back to "../scripts"
-cd ..
-
 function uv_init {
     uv lock
     uv pip install -r pyproject.toml
