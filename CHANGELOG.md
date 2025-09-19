@@ -17,7 +17,9 @@
 
 ### Other changes
 
-- fixed script execution (bd5b85f)
+- merged into main (1eded49)
+- why is .commit not removed? (422c7d7)
+- fixed script execution (b591881)
 - why is .commit not removed? (7d6fb9d)
 - updated project structure (d9d5e70)
 - merged into main (ec24135)
