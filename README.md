@@ -10,7 +10,7 @@ It includes:
 
 ## Development Setup
 
-To install all required project dependencies, run
+To install all required project dependencies, clone this repo and run
 
 ```bash
 python scripts/dev_setup.py
