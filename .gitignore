@@ -16,9 +16,6 @@ __pycache__
 !/scripts/
 !/scripts/*.sh
 !/scripts/*.py
-!/scripts/templates/
-/scripts/templates/*
-!/scripts/templates/CHANGELOG.md.j2
 
 !LICENSE
 !README.md
@@ -26,7 +23,6 @@ __pycache__
 
 !uv.lock
 !pyproject.toml
-!ruff.toml
 
 !/src/
 !/src/project_name

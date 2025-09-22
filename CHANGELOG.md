@@ -18,7 +18,7 @@
 
 ### Other changes
 
-- updatd readme (14ff35b)
+- updatd readme (d3ce9fb)
 - merged into main (5cc9156)
 - why is .commit not removed? (422c7d7)
 - fixed script execution (b591881)
@@ -33,3 +33,7 @@
 - added /doc to pyproject.toml (60c6681)
 - fixed typo (a6b2604)
 - first commit (24a8a68)
+
+### Refactor
+
+- moved pre-commit hooks to remote, cleaned repo (64b8cdd)
