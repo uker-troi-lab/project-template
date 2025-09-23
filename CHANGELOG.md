@@ -7,6 +7,7 @@
 
 ### Documentation
 
+- updated readme (fc361fa)
 - updated readme (e162fa1)
 - updated readme (bba1b1d)
 - mentioning poetry in readme (2ca651d)
@@ -18,7 +19,8 @@
 
 ### Other changes
 
-- updated pre-commit-config (bb6f2b5)
+- merged into main (22f85c8)
+- updated pre-commit-config (2d9b58b)
 - updatd readme (d3ce9fb)
 - merged into main (5cc9156)
 - why is .commit not removed? (422c7d7)
