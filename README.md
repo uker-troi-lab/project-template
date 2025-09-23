@@ -5,12 +5,12 @@ This is a template repository for troi-lab projects.
 It includes:
 
 - `.gitignore`: organized as inclusion-list i.e. by default, everything is excluded from git tracking and if users want resources tracked by git they need to intentionally add them to the `.gitignore`-file.
-- `project.toml`: basic project metadata, including [commitizen](https://commitizen-tools.github.io/commitizen/) rules for formatting the `CHANGELOG.md`.
-- `_templates/CHANGELOG.md.j2`: `CHANGELOG.md` template file.
+- `project.toml`: basic project metadata
+- `.pre-commit-config.yaml`: some pre-commit hooks
 
 ## Development Setup
 
-To install all required project dependencies, clone this repo and run
+To install all required project dependencies and setup pre-commit hooks, clone this repo and run
 
 ```bash
 python scripts/dev_setup.py
@@ -19,13 +19,13 @@ python scripts/dev_setup.py
 Add packages to the `pyproject.toml` with
 
 ```bash
-uv add pandas
+uv add {package}
 ```
 
 Remove packages from the `pyproject.toml` with
 
 ```bash
-uv remove pandas
+uv remove {package}
 ```
 
 Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
