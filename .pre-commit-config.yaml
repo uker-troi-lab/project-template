@@ -15,7 +15,7 @@ repos:
     - id: detect-private-key
 
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.8.19
+    rev: 0.8.20
     hooks:
       - id: uv-lock
 
@@ -28,7 +28,7 @@ repos:
         args: [ --output-format, concise, --exit-zero ]
 
   - repo: https://github.com/uker-troi-lab/commit_hooks
-    rev: 363e7620e3813bf3cf5e42d2f87079385dc85ce0
+    rev: v0.0.1
     hooks:
       - id: check-commit-msg
       - id: changelog-helper

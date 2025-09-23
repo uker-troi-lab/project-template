@@ -83,6 +83,8 @@ def install_project_dependencies(_project_root: str):
     LOG.info(f"\nRepo '{_project_root}': installing pre-commit hooks")
     _cmd = "pre-commit install"
     subprocess.run(args=_cmd, shell=True)
+    _cmd = "pre-commit autoupdate"
+    subprocess.run(args=_cmd, shell=True)
 
 
 if __name__ == "__main__":

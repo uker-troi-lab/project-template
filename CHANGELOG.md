@@ -18,6 +18,7 @@
 
 ### Other changes
 
+- updated pre-commit-config (bb6f2b5)
 - updatd readme (d3ce9fb)
 - merged into main (5cc9156)
 - why is .commit not removed? (422c7d7)
@@ -36,4 +37,4 @@
 
 ### Refactor
 
-- moved pre-commit hooks to remote, cleaned repo (64b8cdd)
+- moved pre-commit hooks to remote, cleaned repo (81af309)
