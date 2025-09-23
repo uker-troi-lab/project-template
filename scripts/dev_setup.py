@@ -74,16 +74,12 @@ def setup_git_repos(_project_root: str):
 def install_project_dependencies(_project_root: str):
     # now install 'pyproject.toml' from this repo
     LOG.info(f"\nRepo '{_project_root}': installing dependencies from 'pyproject.toml'")
-    _cmd = "uv pip install -r pyproject.toml --all-extras"
-    subprocess.run(args=_cmd, shell=True)
-    _cmd = "uv pip install --group dev"
+    _cmd = "uv pip install -r pyproject.toml --all-extras && uv pip install --group dev"
     subprocess.run(args=_cmd, shell=True)
 
     # finally, setup pre-commit-hooks
     LOG.info(f"\nRepo '{_project_root}': installing pre-commit hooks")
-    _cmd = "pre-commit install"
-    subprocess.run(args=_cmd, shell=True)
-    _cmd = "pre-commit autoupdate"
+    _cmd = "pre-commit install && pre-commit autoupdate"
     subprocess.run(args=_cmd, shell=True)
 
 

@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- merged into main (22f85c8)
+- applied code-formatting (4864451)
+- merged into main (93d77aa)
 - updated pre-commit-config (2d9b58b)
 - updatd readme (d3ce9fb)
 - merged into main (5cc9156)
