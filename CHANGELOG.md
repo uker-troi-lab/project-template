@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- applied code-formatting (4864451)
+- updated ruff config (cf09898)
+- applied code-formatting (69da87c)
 - merged into main (93d77aa)
 - updated pre-commit-config (2d9b58b)
 - updatd readme (d3ce9fb)

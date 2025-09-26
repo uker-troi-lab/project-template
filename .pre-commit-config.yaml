@@ -15,17 +15,18 @@ repos:
     - id: detect-private-key
 
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.8.20
+    rev: 0.8.22
     hooks:
       - id: uv-lock
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.13.1
+    rev: v0.13.2
     hooks:
       - id: ruff-format
         always_run: true
       - id: ruff-check
         args: [ --output-format, concise, --exit-zero ]
+        verbose: true
 
   - repo: https://github.com/uker-troi-lab/commit_hooks
     rev: v0.0.1

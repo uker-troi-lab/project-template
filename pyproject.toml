@@ -41,12 +41,21 @@ package = false
 respect-gitignore = false
 target-version = "py311"
 extend-exclude = [".uv-cache"]
+output-format = "concise"
 
 [tool.ruff.lint]
 extend-select = [
   "UP",  # pyupgrade
   "D",   # pydocstyle
 ]
+ignore = [
+  # for example
+  #"D100",  # Missing docstring in public module
+]
+[tool.ruff.lint.per-file-ignores]
+# for example
+# E402 Module level import not at top of file
+# "src/package/file.py" = ["E402"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
