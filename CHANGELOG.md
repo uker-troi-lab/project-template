@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- updated ruff config (cf09898)
+- updated pre-commit versions and linting error (72a1684)
+- updated ruff config (bbb6fe2)
 - applied code-formatting (69da87c)
 - merged into main (93d77aa)
 - updated pre-commit-config (2d9b58b)

@@ -9,5 +9,5 @@ _project_relative_dependencies = ["repo1", "repo2"]
 _cur_path = sys.path
 for _p in _project_relative_dependencies:
     _rel_deps_path = os.path.join(_setup_root, _p, "src")
-    if not _rel_deps_path in _cur_path:
+    if _rel_deps_path not in _cur_path:
         sys.path.append(_rel_deps_path)
