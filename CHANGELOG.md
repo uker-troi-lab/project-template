@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- updated pre-commit versions and linting error (72a1684)
+- added executable to subprocess cmd for source activate (bea9f3d)
+- updated pre-commit versions and linting error (f2ba130)
 - updated ruff config (bbb6fe2)
 - applied code-formatting (69da87c)
 - merged into main (93d77aa)

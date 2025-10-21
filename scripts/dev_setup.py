@@ -28,7 +28,7 @@ def create_conda_env(envname: str, pyversion: str = "3.12"):
         "pip install uv && "
         "uv pip install -r pyproject.toml --all-extras"
     )
-    subprocess.run(args=_install_cmd, shell=True)
+    subprocess.run(args=_install_cmd, shell=True, executable="/bin/bash")
 
 
 def setup_git_repos(_project_root: str):
