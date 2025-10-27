@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- added executable to subprocess cmd for source activate (bea9f3d)
+- updated test-execution script (41c7d9c)
+- added executable to subprocess cmd for source activate (31d419f)
 - updated pre-commit versions and linting error (f2ba130)
 - updated ruff config (bbb6fe2)
 - applied code-formatting (69da87c)

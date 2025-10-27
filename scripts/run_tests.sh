@@ -6,7 +6,7 @@ function uv_init {
 }
 
 function test_code {
-    python -m coverage run -m unittest
+    python -m coverage run test_suite.py
     coverage report
 }
 
