@@ -19,7 +19,8 @@
 
 ### Other changes
 
-- updated init.py (1c68af4)
+- updated toml and pre-commit hooks (8022831)
+- updated init.py (4370370)
 - updated test-execution script (1b0ee6a)
 - added executable to subprocess cmd for source activate (31d419f)
 - updated pre-commit versions and linting error (f2ba130)

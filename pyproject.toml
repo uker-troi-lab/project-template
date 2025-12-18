@@ -7,7 +7,7 @@ requires-python = ">=3.11,<4.0"
 dependencies = [
 ]
 exclude = [
-  "**/doc",
+  "**/doc", "**/docs", "**/test",
   "**/tests", "**/dist",
   "**/templates", "**/_templates",
   "**/images",  "**/_images",
