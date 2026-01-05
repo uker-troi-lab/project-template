@@ -72,24 +72,29 @@ fi
 echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-    # replace version number
     uv version --bump "$1"
-
     new_version=$(uv version --short)
 
-    # commit changes
+    # commit version bump
     git add pyproject.toml uv.lock
-    git commit -m "chore: bump version to $new_version"
-    git tag -a "v$new_version" -m "v$new_version"
+    git commit -m "fix: bump version to $new_version"
 
-    # update changelog with the new tag
+    # create temp file and generate changelog BEFORE tagging
     TEMP_FILE=$(python -c "import tempfile, os; print(os.path.join(tempfile.gettempdir(), '.commit_temp_helper'))")
     touch "$TEMP_FILE"
     pre-commit run --hook-stage post-commit recreate-changelog --all-files
 
-    # push changes
-    git push origin main
-    git push origin "v$new_version"
+    # amend changelog into the version bump commit
+    git add CHANGELOG.md
+    git commit --amend --no-edit --no-verify
+
+    # tag the final commit
+    git tag -a "v$new_version" -m "v$new_version"
+
+    # push branch + tag
+    git push origin main --force-with-lease
+    git push origin -f v$new_version
+
 else
     echo "Aborted."
     exit 1
