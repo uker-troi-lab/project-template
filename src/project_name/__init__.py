@@ -1,5 +1,11 @@
 import os
 import sys
+import importlib.metadata
+
+try:
+    __version__ = importlib.metadata.version(__name__)
+except importlib.metadata.PackageNotFoundError:
+    __version__ = "0.0.0"  # Fallback for development mode
 
 _project_root = os.path.abspath(
     os.path.join(os.path.abspath(os.path.dirname(__file__)), "../../")
