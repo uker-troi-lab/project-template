@@ -2,7 +2,8 @@
 
 ### Bug Fixes
 
-- another try-out for workaround (3ac0035)
+- bump version to 0.1.3 (2b61631)
+- another try-out for workaround (3d72960)
 
 ### Other changes
 
