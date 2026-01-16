@@ -1,8 +1,14 @@
 ## Unreleased
 
+### Other changes
+
+- back to the roots again (fbe6eca)
+
+## v0.1.4 (2026-01-16)
+
 ### Bug Fixes
 
-- bump version to 0.1.4 (ca0d65a)
+- bump version to 0.1.4 (ec5cade)
 - deleting of old tag (70e44c5)
 - bump version to 0.1.3 (ae93e46)
 - another try-out for workaround (3d72960)
