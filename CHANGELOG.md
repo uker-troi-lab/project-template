@@ -1,8 +1,12 @@
 ## Unreleased
 
+### Bug Fixes
+
+- bump version to 0.1.5 (cd1392d)
+
 ### Other changes
 
-- back to the roots again (fbe6eca)
+- back to the roots again (a0cfc67)
 
 ## v0.1.4 (2026-01-16)
 
