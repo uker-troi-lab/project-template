@@ -25,7 +25,8 @@
 
 ### Other changes
 
-- updated release.sh to integrate with pre-commit (57dd69e)
+- added execute-flag to bash scripts (65f38ae)
+- updated release.sh to integrate with pre-commit (ad536f1)
 - updated toml and pre-commit hooks (609ce87)
 - updated init.py (4370370)
 - updated test-execution script (1b0ee6a)
