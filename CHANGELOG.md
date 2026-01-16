@@ -1,13 +1,8 @@
 ## Unreleased
 
-### Other changes
-
-- back to v0.0.1 for testing (dd1c920)
-
-## v0.0.2 (2026-01-16)
-
 ### Bug Fixes
 
+- bump version to 0.0.2 (95c63ea)
 - bump version to 0.0.2 (5b694b4)
 - added source scripts for release.sh (3554024)
 - release script (8a6f3e7)
@@ -32,6 +27,7 @@
 
 ### Other changes
 
+- back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
 - updated toml and pre-commit hooks (609ce87)
