@@ -1,8 +1,14 @@
 ## Unreleased
 
+### Other changes
+
+- added branch-name (294b005)
+
+## v0.1.2 (2026-01-16)
+
 ### Bug Fixes
 
-- bump version to 0.1.2 (961a907)
+- bump version to 0.1.2 (560cc7a)
 - fix ammending of bumped commit and changelog generation (9305a31)
 
 ## v0.1.1 (2026-01-16)

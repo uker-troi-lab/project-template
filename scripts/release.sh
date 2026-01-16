@@ -86,19 +86,12 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     # tag the commit to be used to generate the changelog
     git tag -a "v$new_version" -m "v$new_version"
 
-    # amend to recreate changelog
-    git commit --amend --no-edit
-
-    # push amended commit
-    CUR_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-    git push origin $CUR_BRANCH
-
-    # delete tag
-    git tag -d "v$new_version"
-
     # tag the final commit
     printf "Tagging the last commit\n"
     git tag -a "v$new_version" -m "v$new_version"
+
+    CUR_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    git push origin $CUR_BRANCH
 
     # push tag
     git push origin v$new_version
