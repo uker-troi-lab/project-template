@@ -1,13 +1,17 @@
 ## Unreleased
 
-### Other changes
+### Bug Fixes
 
-- back to v0.0.1 for testing (dd1c920)
+- bump version to 0.1.1 (209e6fb)
 
-## v0.0.2 (2026-01-16)
+## v0.1.0 (2026-01-16)
 
 ### Bug Fixes
 
+- bump version to 0.1.0 (1c2f7a2)
+- removed amending of last commit because it destroys the hashes (0f4557c)
+- bump version to 0.0.3 (cbc3263)
+- bump version to 0.0.2 (87e4706)
 - bump version to 0.0.2 (5b694b4)
 - added source scripts for release.sh (3554024)
 - release script (8a6f3e7)
@@ -32,6 +36,7 @@
 
 ### Other changes
 
+- back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
 - updated toml and pre-commit hooks (609ce87)

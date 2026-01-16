@@ -88,9 +88,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     # push tag
     git push origin -f v$new_version
 
-    # re-trigger changelog generation, amend to last commit
-    git commit --amend --no-edit
-
 else
     echo "Aborted."
     exit 1
