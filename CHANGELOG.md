@@ -2,7 +2,13 @@
 
 ### Bug Fixes
 
-- bump version to 0.1.0 (d461af1)
+- bump version to 0.1.1 (209e6fb)
+
+## v0.1.0 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.0 (1c2f7a2)
 - removed amending of last commit because it destroys the hashes (0f4557c)
 - bump version to 0.0.3 (cbc3263)
 - bump version to 0.0.2 (87e4706)
