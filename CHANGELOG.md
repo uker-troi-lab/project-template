@@ -1,8 +1,14 @@
 ## Unreleased
 
+### Other changes
+
+- added log messages (9ac008c)
+
+## v0.1.1 (2026-01-16)
+
 ### Bug Fixes
 
-- bump version to 0.1.1 (209e6fb)
+- bump version to 0.1.1 (7988887)
 
 ## v0.1.0 (2026-01-16)
 
