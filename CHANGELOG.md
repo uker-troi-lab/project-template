@@ -2,7 +2,37 @@
 
 ### Bug Fixes
 
-- bump version to 0.1.1 (b9cc38b)
+- bump version to 0.1.5 (cd1392d)
+
+### Other changes
+
+- back to the roots again (a0cfc67)
+
+## v0.1.4 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.4 (ec5cade)
+- deleting of old tag (70e44c5)
+- bump version to 0.1.3 (ae93e46)
+- another try-out for workaround (3d72960)
+
+### Other changes
+
+- added branch-name (e3882bd)
+
+## v0.1.2 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.2 (560cc7a)
+- fix ammending of bumped commit and changelog generation (9305a31)
+
+## v0.1.1 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.1 (fbc5acc)
 - bump version to 0.1.3 (5c63ff8)
 - bump version to 0.1.2 (5e087ca)
 - bump version to 0.1.1 (7988887)

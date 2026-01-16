@@ -87,8 +87,11 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     printf "Tagging the last commit\n"
     git tag -a "v$new_version" -m "v$new_version"
 
+    CUR_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    git push origin $CUR_BRANCH
+
     # push tag
-    git push origin -f v$new_version
+    git push origin v$new_version
 
 else
     echo "Aborted."
