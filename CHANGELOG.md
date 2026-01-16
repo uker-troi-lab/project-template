@@ -1,8 +1,12 @@
 ## Unreleased
 
+### Bug Fixes
+
+- another try-out for workaround (3ac0035)
+
 ### Other changes
 
-- added branch-name (294b005)
+- added branch-name (e3882bd)
 
 ## v0.1.2 (2026-01-16)
 

@@ -85,6 +85,14 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
     # tag the commit to be used to generate the changelog
     git tag -a "v$new_version" -m "v$new_version"
+    git push origin v$new_version
+
+    # amend commit to update changelog
+    git commit --amend --no-edit
+
+    # delete previous dummy-tag
+    git commit -d v$new_version
+    git push -d origin v$new_version
 
     # tag the final commit
     printf "Tagging the last commit\n"
