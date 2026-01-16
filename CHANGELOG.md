@@ -1,5 +1,10 @@
 ## Unreleased
 
+### Bug Fixes
+
+- added source scripts for release.sh (3554024)
+- release script (8a6f3e7)
+
 ### CI
 
 - triger for pre-commit (f6846db)
@@ -14,12 +19,14 @@
 
 ### New Features
 
+- release script (11fae63)
 - moved to uv for packagin (9721249)
 - added changelog.md (be5393c)
 
 ### Other changes
 
-- updated toml and pre-commit hooks (8022831)
+- updated release.sh to integrate with pre-commit (57dd69e)
+- updated toml and pre-commit hooks (609ce87)
 - updated init.py (4370370)
 - updated test-execution script (1b0ee6a)
 - added executable to subprocess cmd for source activate (31d419f)
