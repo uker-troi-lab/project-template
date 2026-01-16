@@ -2,7 +2,8 @@
 
 ### Bug Fixes
 
-- deleting of old tag (5be3bdd)
+- bump version to 0.1.4 (ca0d65a)
+- deleting of old tag (70e44c5)
 - bump version to 0.1.3 (ae93e46)
 - another try-out for workaround (3d72960)
 
