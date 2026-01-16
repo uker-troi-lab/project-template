@@ -2,6 +2,7 @@
 
 ### Bug Fixes
 
+- bump version to 0.0.2 (0a36c78)
 - added source scripts for release.sh (3554024)
 - release script (8a6f3e7)
 
@@ -25,7 +26,7 @@
 
 ### Other changes
 
-- added execute-flag to bash scripts (65f38ae)
+- added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
 - updated toml and pre-commit hooks (609ce87)
 - updated init.py (4370370)
