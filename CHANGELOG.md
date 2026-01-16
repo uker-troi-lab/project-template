@@ -2,7 +2,8 @@
 
 ### Bug Fixes
 
-- bump version to 0.0.2 (95c63ea)
+- bump version to 0.0.3 (fd72684)
+- bump version to 0.0.2 (87e4706)
 - bump version to 0.0.2 (5b694b4)
 - added source scripts for release.sh (3554024)
 - release script (8a6f3e7)
