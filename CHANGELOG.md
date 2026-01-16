@@ -2,7 +2,13 @@
 
 ### Bug Fixes
 
-- bump version to 0.1.2 (0d9c83f)
+- bump version to 0.1.3 (4c07f20)
+
+## v0.1.2 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.2 (5e087ca)
 
 ### Other changes
 
