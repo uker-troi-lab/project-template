@@ -1,8 +1,12 @@
 ## Unreleased
 
+### Bug Fixes
+
+- bump version to 0.1.2 (0d9c83f)
+
 ### Other changes
 
-- added log messages (9ac008c)
+- added log messages (eb45f4b)
 
 ## v0.1.1 (2026-01-16)
 
