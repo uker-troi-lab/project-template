@@ -2,7 +2,8 @@
 
 ### Bug Fixes
 
-- fix ammending of bumped commit and changelog generation (5c40530)
+- bump version to 0.1.2 (961a907)
+- fix ammending of bumped commit and changelog generation (9305a31)
 
 ## v0.1.1 (2026-01-16)
 
