@@ -91,7 +91,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     git commit --amend --no-edit
 
     # delete previous dummy-tag
-    git commit -d v$new_version
+    git tag -d v$new_version
     git push -d origin v$new_version
 
     # tag the final commit
