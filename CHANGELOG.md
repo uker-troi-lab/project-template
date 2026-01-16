@@ -2,7 +2,8 @@
 
 ### Bug Fixes
 
-- bump version to 0.0.3 (fd72684)
+- removed amending of last commit because it destroys the hashes (efc62cb)
+- bump version to 0.0.3 (cbc3263)
 - bump version to 0.0.2 (87e4706)
 - bump version to 0.0.2 (5b694b4)
 - added source scripts for release.sh (3554024)
