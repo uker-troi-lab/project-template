@@ -2,12 +2,10 @@
 
 ### Bug Fixes
 
-- bump version to 0.1.1 (209e6fb)
-
-## v0.1.0 (2026-01-16)
-
-### Bug Fixes
-
+- bump version to 0.1.1 (b9cc38b)
+- bump version to 0.1.3 (5c63ff8)
+- bump version to 0.1.2 (5e087ca)
+- bump version to 0.1.1 (7988887)
 - bump version to 0.1.0 (1c2f7a2)
 - removed amending of last commit because it destroys the hashes (0f4557c)
 - bump version to 0.0.3 (cbc3263)
@@ -36,6 +34,8 @@
 
 ### Other changes
 
+- back to v0.1.0 (9825245)
+- added log messages (eb45f4b)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
