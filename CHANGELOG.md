@@ -1,20 +1,5 @@
 ## Unreleased
 
-### Other changes
-
-- udpated hooks (2184279)
-- udpated hooks (7a4ffe9)
-- updated toml (e4290c5)
-- updated pre-commit-version (c6b749c)
-
-## v0.1.9-dev0 (2026-01-22)
-
-### Other changes
-
-- bump version: 0.1.8-dev0 -> 0.1.9-dev0 (0b0aa45)
-
-## v0.1.8-dev0 (2026-01-22)
-
 ### Bug Fixes
 
 - typo in hook-def and added exec-flag to script (c4c05b2)
@@ -26,6 +11,12 @@
 
 ### Other changes
 
+- udpated hooks (2a80620)
+- udpated hooks (467ab01)
+- udpated hooks (7a4ffe9)
+- updated toml (e4290c5)
+- updated pre-commit-version (c6b749c)
+- bump version: 0.1.8-dev0 -> 0.1.9-dev0 (0b0aa45)
 - bump version: 0.1.7-rc0 -> 0.1.8-dev0 (8cc9a9b)
 - updated pre-commit-version (68a4140)
 - updated pre-commit-version (5cf9b5e)
