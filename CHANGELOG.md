@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- updated hooks (fdf833b)
+- another test run of version bump (384cf22)
+- updated hooks (bb816d5)
 - udpated hooks (233d237)
 - udpated hooks (467ab01)
 - udpated hooks (7a4ffe9)
