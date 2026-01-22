@@ -29,7 +29,7 @@ repos:
         verbose: true
 
   - repo: https://github.com/kapsner/commit_hooks
-    rev: 5195bf1ce407d5a1a1471212d6848d391c4c188d
+    rev: d57ce8e0fde97f894068a704b5993365384c755f
     hooks:
       - id: check-commit-msg
       - id: changelog-helper
