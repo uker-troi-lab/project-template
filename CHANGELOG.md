@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- updated pre-commit-version (2b2d818)
+- updated pre-commit-version (f195c71)
+- updated pre-commit-version (cfc1b32)
 - updated pre-commit-version (2b7db5b)
 - updated pre-commit-version (f3a4ea5)
 - updated pre-commit-version (306deb6)
