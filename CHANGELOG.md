@@ -1,5 +1,9 @@
 ## Unreleased
 
+### Bug Fixes
+
+- typo in hook-def and added exec-flag to script (afddcd0)
+
 ### New Features
 
 - working to integrate bump-my-version as pre-commit-hook (d43ad09)
@@ -7,7 +11,7 @@
 
 ### Other changes
 
-- try out as pre-commit (0b36fcc)
+- try out as pre-commit (d661301)
 - bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
 - bump version: 0.1.6 -> 0.1.7-dev0 (0a09ef4)
 - bump version: 0.1.5 -> 0.1.6 (7f4fd25)
