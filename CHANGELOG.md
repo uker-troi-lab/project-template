@@ -1,12 +1,13 @@
-## v0.1.6 (2026-01-22)
+## Unreleased
 
 ### New Features
 
+- working to integrate bump-my-version as pre-commit-hook (105a4b8)
 - try out bump-my-version (e8f624a)
 
 ### Other changes
 
-- bump version: 0.1.5 -> 0.1.6 (622f0bc)
+- bump version: 0.1.5 -> 0.1.6 (7f4fd25)
 
 ## v0.1.5 (2026-01-16)
 

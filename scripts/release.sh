@@ -8,8 +8,6 @@ set -e
 # change to project root
 cd "$(dirname "$(dirname "$0")")"
 
-FORCE=false
-
 usage() {
     echo "Usage: $0 [options] VERSION"
     echo
@@ -17,9 +15,10 @@ usage() {
     echo "  major: bump major version number"
     echo "  minor: bump minor version number"
     echo "  patch: bump patch version number"
+    echo "  pre_l: bump pre-release label"
+    echo "  pre_n: pre-release version number (default)"
     echo
     echo "Options:"
-    echo "  -f, --force:  force release"
     echo "  -h, --help:   show this help message"
     exit 1
 }
@@ -27,10 +26,6 @@ usage() {
 # parse args
 while [ "$#" -gt 0 ]; do
     case "$1" in
-    -f | --force)
-        FORCE=true
-        shift
-        ;;
     -h | --help)
         usage
         ;;
@@ -42,58 +37,34 @@ done
 
 # check if version is specified
 if [ "$#" -ne 1 ]; then
+    VERSION="pre_n"
+  else
+    VERSION=$1
+fi
+
+if [ "$VERSION" != "major" ] && [ "$VERSION" != "minor" ] && [ "$VERSION" != "patch" ] && [ "$VERSION" != "pre_l" ] && [ "$VERSION" != "pre_n" ] ; then
     usage
 fi
 
-if [ "$1" != "major" ] && [ "$1" != "minor" ] && [ "$1" != "patch" ]; then
-    usage
+# should commit be tagged? infer from version-bump
+TAG_COMMIT=0
+if [ $VERSION != "pre_n" ] || [ $VERSION != "pre_l" ]; then
+    TAG_COMMIT=1
 fi
 
-# check if git is clean and force is not enabled
-if ! git diff-index --quiet HEAD -- && [ "$FORCE" = false ]; then
-    echo "Error: git is not clean. Please commit all changes first."
+
+if ! command -v bump-my-version &> /dev/null; then
+    echo "Error: bump-my-version is not installed. Please run `pip install bump-my-version`"
     exit 1
 fi
-
-if ! command -v uv &> /dev/null; then
-    echo "Error: uv is not installed. Please install uv from https://docs.astral.sh/uv/"
-    exit 1
-fi
-
-pre-commit install
 
 echo "Would bump version:"
-uv version --bump "$1" --dry-run
+bump-my-version show --increment $VERSION new_version
 
-# prompt for confirmation
-if [ "$FORCE" = false ]; then
-    read -p "Do you want to release? [yY] " -n 1 -r
-    echo
-else
-    REPLY="y"
-fi
-echo
 
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-    uv version --bump "$1"
-    new_version=$(uv version --short)
-
-    # commit version bump
-    git add pyproject.toml uv.lock
-    printf "Adding bump commit msg\n"
-    git commit -m "chore: bump version to $new_version"
-
-    # tag the final commit
-    printf "Tagging the last commit\n"
-    git tag -a "v$new_version" -m "v$new_version"
-
-    CUR_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-    git push origin $CUR_BRANCH
-
-    # push tag
-    git push origin v$new_version
-
-else
-    echo "Aborted."
-    exit 1
-fi
+# save git message
+# git log -1 --pretty=%B > /tmp/msg.txt
+# only run commit-msg hook (to run changelog-helper)
+# pre-commit run --hook-stage commit-msg --commit-msg-file /tmp/msg.txt
+# run post-commit stage to generate changelog with new commit tag included
+# pre-commit run --hook-stage post-commit
