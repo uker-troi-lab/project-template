@@ -2,11 +2,14 @@
 
 ### New Features
 
-- working to integrate bump-my-version as pre-commit-hook (105a4b8)
+- working to integrate bump-my-version as pre-commit-hook (d43ad09)
 - try out bump-my-version (e8f624a)
 
 ### Other changes
 
+- try out as pre-commit (0b36fcc)
+- bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
+- bump version: 0.1.6 -> 0.1.7-dev0 (0a09ef4)
 - bump version: 0.1.5 -> 0.1.6 (7f4fd25)
 
 ## v0.1.5 (2026-01-16)
