@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- updated pre-commit config (840849f)
+- updated pre-commit-hooks (281e017)
+- updated pre-commit config (935e777)
 - removed bump-version parts from toml (5ae4bb2)
 - try out as pre-commit (d661301)
 - bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
