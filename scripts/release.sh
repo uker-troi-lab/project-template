@@ -81,7 +81,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     # commit version bump
     git add pyproject.toml uv.lock
     printf "Adding bump commit msg\n"
-    git commit -m "fix: bump version to $new_version"
+    git commit -m "chore: bump version to $new_version"
 
     # tag the final commit
     printf "Tagging the last commit\n"

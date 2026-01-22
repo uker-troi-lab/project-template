@@ -23,6 +23,7 @@ dev = [
     "coverage>=7.10.4",
     "ruff>=0.13.0",
     "pre-commit>=4.3.0",
+    "bump-my-version>=1.2.6",
 ]
 
 [build-system]
@@ -62,3 +63,26 @@ convention = "google"
 
 [tool.ruff.format]
 docstring-code-format = true
+
+
+[tool.bumpversion]
+current_version = "0.1.5"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "release v{new_version}"
+allow_dirty = false
+commit = true
+message = "chore: bump version: {current_version} -> {new_version}"
+commit_args = "--no-verify"
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = "version = \"{current_version}\""
+replace = "version = \"{new_version}\""

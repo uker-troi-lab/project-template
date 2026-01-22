@@ -1,8 +1,14 @@
 ## Unreleased
 
+### New Features
+
+- try out bump-my-version (64d1d05)
+
+## v0.1.5 (2026-01-16)
+
 ### Bug Fixes
 
-- bump version to 0.1.5 (cd1392d)
+- bump version to 0.1.5 (2e26b69)
 
 ### Other changes
 
