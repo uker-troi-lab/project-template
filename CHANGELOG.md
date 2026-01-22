@@ -11,7 +11,10 @@
 
 ### Other changes
 
-- another test run of version bump (384cf22)
+- another test run of version bump (b6fbb8c)
+- bump version: 0.1.7-dev2 -> 0.1.7-dev3 (6c97f65)
+- bump version: 0.1.7-dev1 -> 0.1.7-dev2 (1379453)
+- another test run of version bump (ad4ac62)
 - updated hooks (bb816d5)
 - udpated hooks (233d237)
 - udpated hooks (467ab01)
