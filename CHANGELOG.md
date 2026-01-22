@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- another test run of version bump (1de9555)
+- updated hook-ver (433eba5)
+- another test run of version bump (9e9626a)
 - another test run of version bump (c3d5461)
 - bump version: 0.1.7-dev2 -> 0.1.7-dev3 (6c97f65)
 - bump version: 0.1.7-dev1 -> 0.1.7-dev2 (1379453)
