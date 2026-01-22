@@ -63,6 +63,3 @@ convention = "google"
 
 [tool.ruff.format]
 docstring-code-format = true
-
-[tool.bumpversion]
-current_version = "0.1.7-rc0"

@@ -2,7 +2,7 @@
 
 ### Bug Fixes
 
-- typo in hook-def and added exec-flag to script (afddcd0)
+- typo in hook-def and added exec-flag to script (c4c05b2)
 
 ### New Features
 
@@ -11,6 +11,7 @@
 
 ### Other changes
 
+- removed bump-version parts from toml (e55eb30)
 - try out as pre-commit (d661301)
 - bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
 - bump version: 0.1.6 -> 0.1.7-dev0 (0a09ef4)
