@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- updated pre-commit-version (8845107)
+- updated toml (f2e9cee)
+- updated pre-commit-version (c6b749c)
 
 ## v0.1.9-dev0 (2026-01-22)
 
