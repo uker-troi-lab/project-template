@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- updated toml (f2e9cee)
+- udpated hooks (ed8a140)
+- updated toml (e4290c5)
 - updated pre-commit-version (c6b749c)
 
 ## v0.1.9-dev0 (2026-01-22)
