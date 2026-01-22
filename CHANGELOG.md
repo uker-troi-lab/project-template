@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- udpated hooks (ed8a140)
+- udpated hooks (2184279)
+- udpated hooks (7a4ffe9)
 - updated toml (e4290c5)
 - updated pre-commit-version (c6b749c)
 
