@@ -9,7 +9,7 @@
 - working to integrate bump-my-version as pre-commit-hook (d43ad09)
 - try out bump-my-version (e8f624a)
 
-### Other changes
+### Other changes test
 
 - test run (18653eb)
 - updated hook-ver (f9b5f64)
