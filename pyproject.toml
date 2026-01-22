@@ -33,7 +33,8 @@ build-backend = "uv_build"
 [tool.uv]
 package = false
 
-# if required, specify development sources (sitting in relative paths) with this block
+# if required, specify development sources
+# (sitting in relative paths) with this block
 #[tool.uv.sources]
 #tirutils = { path = "../tirutils/tirutils" }
 #tirutils_plus = { path = "../tirutils/tirutils_plus" }
