@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- udpated hooks (2a80620)
+- updated hooks (fdf833b)
+- udpated hooks (233d237)
 - udpated hooks (467ab01)
 - udpated hooks (7a4ffe9)
 - updated toml (e4290c5)
