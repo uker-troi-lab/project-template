@@ -2,6 +2,7 @@ default_install_hook_types:
   - pre-commit
   - commit-msg
   - post-commit
+  - pre-push
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -29,7 +30,7 @@ repos:
         verbose: true
 
   - repo: https://github.com/kapsner/commit_hooks
-    rev: 3c1ab8a0c6ef03652d70f45fb8d22f16b5fbcea9
+    rev: 2d2d54a3658d037ef12e1f28543932d1e354f5ef
     hooks:
       - id: check-commit-msg
       - id: changelog-helper
