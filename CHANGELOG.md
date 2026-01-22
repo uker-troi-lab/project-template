@@ -1,5 +1,12 @@
 ## Unreleased
 
+### Other changes
+
+- again trigger pipeline (8c6512c)
+- trigger pipeline (b287731)
+
+## v0.1.6 (2026-01-22)
+
 ### Bug Fixes
 
 - typo in hook-def and added exec-flag to script (c4c05b2)
@@ -9,9 +16,14 @@
 - working to integrate bump-my-version as pre-commit-hook (d43ad09)
 - try out bump-my-version (e8f624a)
 
-### Other changes test
+### Other changes
 
-- test run (18653eb)
+- bump version: 0.1.5 -> 0.1.6 (622f0bc)
+- bump version: 0.1.7-dev1 -> 0.1.7-dev2 (96ddb47)
+- updated ver for test run with bump (3ef32fd)
+- updated ver for test run with bump (30e8401)
+- updated ver for test run (39672e5)
+- test run (2ba56df)
 - updated hook-ver (f9b5f64)
 - another test run of version bump (9e9626a)
 - another test run of version bump (c3d5461)
