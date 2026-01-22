@@ -1,6 +1,6 @@
 [project]
 name = "prpoject_template"
-version = "0.1.7-dev1"
+version = "0.1.7-dev2"
 description = "troi-lab project template."
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
