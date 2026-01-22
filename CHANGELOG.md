@@ -11,7 +11,8 @@
 
 ### Other changes
 
-- updated pre-commit-version (09a7e83)
+- updated pre-commit-version (0227a19)
+- updated pre-commit-version (8ee7092)
 - updated pre-commit-version (543fb83)
 - updated pre-commit-hooks (faee271)
 - updated pre-commit config (935e777)
