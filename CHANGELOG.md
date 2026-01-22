@@ -1,8 +1,12 @@
-## Unreleased
+## v0.1.6 (2026-01-22)
 
 ### New Features
 
-- try out bump-my-version (64d1d05)
+- try out bump-my-version (e8f624a)
+
+### Other changes
+
+- bump version: 0.1.5 -> 0.1.6 (622f0bc)
 
 ## v0.1.5 (2026-01-16)
 
