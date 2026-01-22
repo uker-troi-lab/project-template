@@ -1,5 +1,17 @@
 ## Unreleased
 
+### Other changes
+
+- updated pre-commit-version (8845107)
+
+## v0.1.9-dev0 (2026-01-22)
+
+### Other changes
+
+- bump version: 0.1.8-dev0 -> 0.1.9-dev0 (0b0aa45)
+
+## v0.1.8-dev0 (2026-01-22)
+
 ### Bug Fixes
 
 - typo in hook-def and added exec-flag to script (c4c05b2)
@@ -11,7 +23,8 @@
 
 ### Other changes
 
-- updated pre-commit-version (f1ef9ce)
+- bump version: 0.1.7-rc0 -> 0.1.8-dev0 (8cc9a9b)
+- updated pre-commit-version (68a4140)
 - updated pre-commit-version (5cf9b5e)
 - updated pre-commit-version (cfc1b32)
 - updated pre-commit-version (2b7db5b)
