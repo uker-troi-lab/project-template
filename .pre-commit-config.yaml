@@ -29,10 +29,11 @@ repos:
         verbose: true
 
   - repo: ../commit_hooks
-    rev: e6bc7cf70943d4c12defceb9a45850ec6516be6d
+    rev: eef7b225b0f7eb2315c168864d60b200f5fb8e0b
     hooks:
       - id: check-commit-msg
       - id: changelog-helper
       - id: recreate-changelog
       - id: bump-version-helper
       - id: bump-version
+      - id: bump-version-finalize

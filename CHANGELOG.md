@@ -31,7 +31,8 @@
 
 ### Other changes
 
-- updated pre-commit versions (b89b8f5)
+- added all bump-version stages (e2775dd)
+- updated pre-commit versions (1076aeb)
 - show pipeline (bc430b8)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
