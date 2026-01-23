@@ -1,8 +1,116 @@
 ## Unreleased
 
+### Other changes
+
+- updated uker-hooks (bda1bdd)
+
+## v0.1.10 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.9 -> 0.1.10 (ae982e6)
+- udpdated hooks (d179a81)
+
+## v0.1.9 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.8dev1 -> 0.1.9 (6d7648c)
+- prepare bump (8a88703)
+- prepare bump (8efb415)
+- bump version 0.1.8 -> 0.1.8dev1 (17f9242)
+- anothter update to test (9737a41)
+
+## v0.1.8 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.7dev3 -> 0.1.8 (6158ffb)
+- prepare bump (917e20c)
+- bump version 0.1.7dev2 -> 0.1.7dev3 (bcc7d8c)
+- bump version 0.1.7 -> 0.1.8 (8fedcb6)
+- testing latest hook-changes (7e52de3)
+- bump version 0.1.7dev1 -> 0.1.7dev2 (91fdcbc)
+- updated hooks (26bd7ea)
+- bump version 0.1.7 -> 0.1.7dev1 (20c55fb)
+- bump (e0768ba)
+- updated versions (549613a)
+
+## v0.1.7 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.6dev1 -> 0.1.7 (7d1f9a6)
+- prepare bump (90b136a)
+- bump version 0.1.6 -> 0.1.6dev1 (36dc17d)
+- prep next version (ff564a4)
+- updated pre-commits to latest version (f52a4fd)
+- udpated pre-commit hooks #2 (00548b1)
+- udpated pre-commit hooks (e4cea00)
+- updated pre-commit-cfg (c89e408)
+- updated pre-commit-cfg (b12f03f)
+- again trigger pipeline (13e4bb6)
+- trigger pipeline (b287731)
+
+## v0.1.6 (2026-01-22)
+
 ### Bug Fixes
 
-- bump version to 0.1.5 (cd1392d)
+- typo in hook-def and added exec-flag to script (c4c05b2)
+
+### New Features
+
+- working to integrate bump-my-version as pre-commit-hook (d43ad09)
+- try out bump-my-version (e8f624a)
+
+### Other changes
+
+- bump version: 0.1.5 -> 0.1.6 (622f0bc)
+- bump version: 0.1.7-dev1 -> 0.1.7-dev2 (96ddb47)
+- updated ver for test run with bump (3ef32fd)
+- updated ver for test run with bump (30e8401)
+- updated ver for test run (39672e5)
+- test run (2ba56df)
+- updated hook-ver (f9b5f64)
+- another test run of version bump (9e9626a)
+- another test run of version bump (c3d5461)
+- bump version: 0.1.7-dev2 -> 0.1.7-dev3 (6c97f65)
+- bump version: 0.1.7-dev1 -> 0.1.7-dev2 (1379453)
+- another test run of version bump (ad4ac62)
+- updated hooks (bb816d5)
+- udpated hooks (233d237)
+- udpated hooks (467ab01)
+- udpated hooks (7a4ffe9)
+- updated toml (e4290c5)
+- updated pre-commit-version (c6b749c)
+- bump version: 0.1.8-dev0 -> 0.1.9-dev0 (0b0aa45)
+- bump version: 0.1.7-rc0 -> 0.1.8-dev0 (8cc9a9b)
+- updated pre-commit-version (68a4140)
+- updated pre-commit-version (5cf9b5e)
+- updated pre-commit-version (cfc1b32)
+- updated pre-commit-version (2b7db5b)
+- updated pre-commit-version (f3a4ea5)
+- updated pre-commit-version (306deb6)
+- updated pre-commit-version (64d59c1)
+- updated pre-commit-version (8290142)
+- updated pre-commit-version (102f2a5)
+- updated pre-commit-version (7c6c4ac)
+- updated pre-commit-version (3b0f633)
+- updated pre-commit-version (8ee7092)
+- updated pre-commit-version (543fb83)
+- updated pre-commit-hooks (faee271)
+- updated pre-commit config (935e777)
+- removed bump-version parts from toml (5ae4bb2)
+- try out as pre-commit (d661301)
+- bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
+- bump version: 0.1.6 -> 0.1.7-dev0 (0a09ef4)
+- bump version: 0.1.5 -> 0.1.6 (7f4fd25)
+
+## v0.1.5 (2026-01-16)
+
+### Bug Fixes
+
+- bump version to 0.1.5 (2e26b69)
 
 ### Other changes
 
@@ -66,6 +174,9 @@
 
 - back to v0.1.0 (9825245)
 - added log messages (eb45f4b)
+- added all bump-version stages (d2a7000)
+- updated pre-commit versions (1076aeb)
+- show pipeline (bc430b8)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
