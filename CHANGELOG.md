@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- udpdated hooks (df7b6bf)
+- bump version 0.1.9 -> 0.1.10 (9878384)
+- udpdated hooks (d179a81)
 
 ## v0.1.9 (2026-01-23)
 
