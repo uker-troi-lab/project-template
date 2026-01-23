@@ -2,6 +2,7 @@
 
 ### Other changes
 
+- bump version 0.1.7dev2 -> 0.1.7dev3 (0c7533d)
 - bump version 0.1.7 -> 0.1.8 (8fedcb6)
 - testing latest hook-changes (7e52de3)
 - bump version 0.1.7dev1 -> 0.1.7dev2 (91fdcbc)
