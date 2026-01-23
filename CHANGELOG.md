@@ -2,7 +2,13 @@
 
 ### Other changes
 
-- bump version 0.1.6dev1 -> 0.1.7 (810c155)
+- updated versions (38fcde1)
+
+## v0.1.7 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.6dev1 -> 0.1.7 (7d1f9a6)
 - prepare bump (90b136a)
 - bump version 0.1.6 -> 0.1.6dev1 (36dc17d)
 - prep next version (ff564a4)
