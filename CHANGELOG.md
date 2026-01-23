@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- prepare bump (f8953f6)
+- bump version 0.1.8dev1 -> 0.1.9 (c3af5a9)
+- prepare bump (8a88703)
 - prepare bump (8efb415)
 - bump version 0.1.8 -> 0.1.8dev1 (17f9242)
 - anothter update to test (9737a41)

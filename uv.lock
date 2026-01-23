@@ -309,7 +309,7 @@ wheels = [
 
 [[package]]
 name = "prpoject-template"
-version = "0.1.8.dev1"
+version = "0.1.9"
 source = { virtual = "." }
 
 [package.dev-dependencies]
