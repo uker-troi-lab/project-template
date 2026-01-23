@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- bump (6f51f02)
+- bump version 0.1.7 -> 0.1.7dev1 (6c5fbd6)
+- bump (e0768ba)
 - updated versions (549613a)
 
 ## v0.1.7 (2026-01-23)
