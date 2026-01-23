@@ -30,7 +30,7 @@ repos:
         verbose: true
 
   - repo: ../commit_hooks
-    rev: 396fcbecdc31ea78b12099deb61a02b6c71285cb
+    rev: b499687c15333d3a6f105fd41c9d3f62e66e0283
     hooks:
       - id: check-commit-msg
       - id: changelog-helper
