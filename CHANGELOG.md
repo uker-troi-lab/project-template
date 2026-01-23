@@ -2,6 +2,7 @@
 
 ### Other changes
 
+- updated pre-commit-cfg (a863869)
 - again trigger pipeline (13e4bb6)
 - trigger pipeline (b287731)
 
