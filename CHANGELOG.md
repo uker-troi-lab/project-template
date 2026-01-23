@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- testing latest hook-changes (140b2d4)
+- bump version 0.1.7 -> 0.1.8 (5176b24)
+- testing latest hook-changes (7e52de3)
 
 ## v0.1.7 (2026-01-23)
 
