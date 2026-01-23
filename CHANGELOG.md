@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- bump version 0.1.7 -> 0.1.7dev1 (6c5fbd6)
+- updated hooks (0937d9b)
+- bump version 0.1.7 -> 0.1.7dev1 (20c55fb)
 - bump (e0768ba)
 - updated versions (549613a)
 
