@@ -26,7 +26,8 @@
 
 ### Other changes
 
-- prepare bump to v0.1.0 (ae811cc)
+- bump version 0.0.2 -> 0.1.0 (cb5c455)
+- prepare bump to v0.1.0 (1f40d99)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
