@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- prepare bump (2040377)
+- bump version 0.1.7dev3 -> 0.1.8 (4bb8121)
+- prepare bump (917e20c)
 - bump version 0.1.7dev2 -> 0.1.7dev3 (bcc7d8c)
 - bump version 0.1.7 -> 0.1.8 (8fedcb6)
 - testing latest hook-changes (7e52de3)
