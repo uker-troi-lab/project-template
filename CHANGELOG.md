@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- updated versions (38fcde1)
+- bump (6f51f02)
+- updated versions (549613a)
 
 ## v0.1.7 (2026-01-23)
 
