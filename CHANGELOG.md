@@ -31,7 +31,8 @@
 
 ### Other changes
 
-- show pipeline (66cdd44)
+- updated pre-commit versions (b89b8f5)
+- show pipeline (bc430b8)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
