@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- bump version 0.1.6 -> 0.1.6dev1 (f261405)
+- prepare bump (5ac6055)
+- bump version 0.1.6 -> 0.1.6dev1 (36dc17d)
 - prep next version (ff564a4)
 - updated pre-commits to latest version (f52a4fd)
 - udpated pre-commit hooks #2 (00548b1)
