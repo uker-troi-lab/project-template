@@ -1,30 +1,58 @@
 ## Unreleased
 
+### Bug Fixes
+
+- typo in hook-def and added exec-flag to script (c4c05b2)
+- bump version to 0.1.5 (2e26b69)
+- bump version to 0.1.4 (ec5cade)
+- deleting of old tag (70e44c5)
+- bump version to 0.1.3 (ae93e46)
+- another try-out for workaround (3d72960)
+- bump version to 0.1.2 (560cc7a)
+- fix ammending of bumped commit and changelog generation (9305a31)
+- bump version to 0.1.1 (fbc5acc)
+- bump version to 0.1.3 (5c63ff8)
+- bump version to 0.1.2 (5e087ca)
+- bump version to 0.1.1 (7988887)
+- bump version to 0.1.0 (1c2f7a2)
+- removed amending of last commit because it destroys the hashes (0f4557c)
+- bump version to 0.0.3 (cbc3263)
+- bump version to 0.0.2 (87e4706)
+- bump version to 0.0.2 (5b694b4)
+- added source scripts for release.sh (3554024)
+- release script (8a6f3e7)
+
+### CI
+
+- triger for pre-commit (f6846db)
+- fixed gitlab-ci (44ebca9)
+
+### Documentation
+
+- updated readme (fc361fa)
+- updated readme (e162fa1)
+- updated readme (bba1b1d)
+- mentioning poetry in readme (2ca651d)
+
+### New Features
+
+- working to integrate bump-my-version as pre-commit-hook (d43ad09)
+- try out bump-my-version (e8f624a)
+- release script (11fae63)
+- moved to uv for packagin (9721249)
+- added changelog.md (be5393c)
+
 ### Other changes
 
-- updated uker-hooks (bda1bdd)
-
-## v0.1.10 (2026-01-23)
-
-### Other changes
-
+- bump to version 0.1.0 (e4df632)
+- updated uker-hooks (d850840)
 - bump version 0.1.9 -> 0.1.10 (ae982e6)
 - udpdated hooks (d179a81)
-
-## v0.1.9 (2026-01-23)
-
-### Other changes
-
 - bump version 0.1.8dev1 -> 0.1.9 (6d7648c)
 - prepare bump (8a88703)
 - prepare bump (8efb415)
 - bump version 0.1.8 -> 0.1.8dev1 (17f9242)
 - anothter update to test (9737a41)
-
-## v0.1.8 (2026-01-23)
-
-### Other changes
-
 - bump version 0.1.7dev3 -> 0.1.8 (6158ffb)
 - prepare bump (917e20c)
 - bump version 0.1.7dev2 -> 0.1.7dev3 (bcc7d8c)
@@ -35,11 +63,6 @@
 - bump version 0.1.7 -> 0.1.7dev1 (20c55fb)
 - bump (e0768ba)
 - updated versions (549613a)
-
-## v0.1.7 (2026-01-23)
-
-### Other changes
-
 - bump version 0.1.6dev1 -> 0.1.7 (7d1f9a6)
 - prepare bump (90b136a)
 - bump version 0.1.6 -> 0.1.6dev1 (36dc17d)
@@ -51,20 +74,6 @@
 - updated pre-commit-cfg (b12f03f)
 - again trigger pipeline (13e4bb6)
 - trigger pipeline (b287731)
-
-## v0.1.6 (2026-01-22)
-
-### Bug Fixes
-
-- typo in hook-def and added exec-flag to script (c4c05b2)
-
-### New Features
-
-- working to integrate bump-my-version as pre-commit-hook (d43ad09)
-- try out bump-my-version (e8f624a)
-
-### Other changes
-
 - bump version: 0.1.5 -> 0.1.6 (622f0bc)
 - bump version: 0.1.7-dev1 -> 0.1.7-dev2 (96ddb47)
 - updated ver for test run with bump (3ef32fd)
@@ -105,73 +114,8 @@
 - bump version: 0.1.7-dev0 -> 0.1.7-rc0 (e5e7fbe)
 - bump version: 0.1.6 -> 0.1.7-dev0 (0a09ef4)
 - bump version: 0.1.5 -> 0.1.6 (7f4fd25)
-
-## v0.1.5 (2026-01-16)
-
-### Bug Fixes
-
-- bump version to 0.1.5 (2e26b69)
-
-### Other changes
-
 - back to the roots again (a0cfc67)
-
-## v0.1.4 (2026-01-16)
-
-### Bug Fixes
-
-- bump version to 0.1.4 (ec5cade)
-- deleting of old tag (70e44c5)
-- bump version to 0.1.3 (ae93e46)
-- another try-out for workaround (3d72960)
-
-### Other changes
-
 - added branch-name (e3882bd)
-
-## v0.1.2 (2026-01-16)
-
-### Bug Fixes
-
-- bump version to 0.1.2 (560cc7a)
-- fix ammending of bumped commit and changelog generation (9305a31)
-
-## v0.1.1 (2026-01-16)
-
-### Bug Fixes
-
-- bump version to 0.1.1 (fbc5acc)
-- bump version to 0.1.3 (5c63ff8)
-- bump version to 0.1.2 (5e087ca)
-- bump version to 0.1.1 (7988887)
-- bump version to 0.1.0 (1c2f7a2)
-- removed amending of last commit because it destroys the hashes (0f4557c)
-- bump version to 0.0.3 (cbc3263)
-- bump version to 0.0.2 (87e4706)
-- bump version to 0.0.2 (5b694b4)
-- added source scripts for release.sh (3554024)
-- release script (8a6f3e7)
-
-### CI
-
-- triger for pre-commit (f6846db)
-- fixed gitlab-ci (44ebca9)
-
-### Documentation
-
-- updated readme (fc361fa)
-- updated readme (e162fa1)
-- updated readme (bba1b1d)
-- mentioning poetry in readme (2ca651d)
-
-### New Features
-
-- release script (11fae63)
-- moved to uv for packagin (9721249)
-- added changelog.md (be5393c)
-
-### Other changes
-
 - back to v0.1.0 (9825245)
 - added log messages (eb45f4b)
 - added all bump-version stages (d2a7000)
