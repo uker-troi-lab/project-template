@@ -2,7 +2,13 @@
 
 ### Other changes
 
-- bump version 0.1.7dev3 -> 0.1.8 (4bb8121)
+- anothter update to test (c7e7a3e)
+
+## v0.1.8 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.7dev3 -> 0.1.8 (6158ffb)
 - prepare bump (917e20c)
 - bump version 0.1.7dev2 -> 0.1.7dev3 (bcc7d8c)
 - bump version 0.1.7 -> 0.1.8 (8fedcb6)
