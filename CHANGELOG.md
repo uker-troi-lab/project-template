@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- udpated pre-commit hooks (b3643d1)
+- udpated pre-commit hooks #2 (3bdce9e)
+- udpated pre-commit hooks (e4cea00)
 - updated pre-commit-cfg (c89e408)
 - updated pre-commit-cfg (b12f03f)
 - again trigger pipeline (13e4bb6)
