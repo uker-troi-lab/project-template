@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- udpated pre-commit hooks #2 (3bdce9e)
+- updated pre-commits to latest version (b43ee7d)
+- udpated pre-commit hooks #2 (00548b1)
 - udpated pre-commit hooks (e4cea00)
 - updated pre-commit-cfg (c89e408)
 - updated pre-commit-cfg (b12f03f)
