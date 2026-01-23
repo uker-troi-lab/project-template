@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- anothter update to test (c7e7a3e)
+- bump version 0.1.8 -> 0.1.8dev1 (23def26)
+- anothter update to test (9737a41)
 
 ## v0.1.8 (2026-01-23)
 
