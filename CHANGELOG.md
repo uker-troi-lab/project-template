@@ -2,7 +2,13 @@
 
 ### Other changes
 
-- bump version 0.1.9 -> 0.1.10 (9878384)
+- updated uker-hooks (bda1bdd)
+
+## v0.1.10 (2026-01-23)
+
+### Other changes
+
+- bump version 0.1.9 -> 0.1.10 (ae982e6)
 - udpdated hooks (d179a81)
 
 ## v0.1.9 (2026-01-23)
