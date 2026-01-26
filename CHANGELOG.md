@@ -26,7 +26,8 @@
 
 ### Other changes
 
-- bump version 0.0.2 -> 0.1.0 (cb5c455)
+- tryout update (0950dcf)
+- bump version 0.0.2 -> 0.1.0 (f2c02dc)
 - prepare bump to v0.1.0 (1f40d99)
 - back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
