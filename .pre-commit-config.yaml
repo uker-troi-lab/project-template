@@ -32,7 +32,7 @@ repos:
   #- repo: https://github.com/uker-troi-lab/commit_hooks.git
   #  rev: v0.1.0
   - repo: ../commit_hooks
-    rev: 5598ccf3f624ee41edcf1eb51cf8abf45a9cb4bc
+    rev: main
     hooks:
       - id: check-commit-msg
       - id: recreate-changelog
