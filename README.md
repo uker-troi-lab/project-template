@@ -16,31 +16,25 @@ To install all required project dependencies and setup pre-commit hooks, clone t
 python scripts/dev_setup.py
 ```
 
-Add packages to the `pyproject.toml` with
+Some basic `uv` commands:
 
 ```bash
+# Add packages to the `pyproject.toml` with
 uv add {package}
-```
 
-Remove packages from the `pyproject.toml` with
-
-```bash
+# Remove packages from the `pyproject.toml` with
 uv remove {package}
-```
 
-Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
-
-```bash
+# Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
 uv sync
-```
 
-Update the `uv.lock` file with
+# Upgrade all versions in your `pyproject.toml`
+uv sync --upgrade
 
-Remove packages from the `pyproject.toml` with
-
-```bash
+# Update the `uv.lock` file with
 uv lock
 ```
+
 
 To run linter, execute:
 

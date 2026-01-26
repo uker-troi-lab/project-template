@@ -1,5 +1,11 @@
 ## Unreleased
 
+### Other changes
+
+- **deps**: updated latest version of hooks (146c6e2)
+
+## v0.1.1 (2026-01-26)
+
 ### Bug Fixes
 
 - bump version to 0.0.2 (5b694b4)
@@ -28,7 +34,7 @@
 
 ### Other changes
 
-- bump version: 0.1.0dev3 -> 0.1.1 (69bcf07)
+- bump version: 0.1.0dev3 -> 0.1.1 (96dc585)
 - bump version: 0.1.0dev2 -> 0.1.0dev3 (05c8820)
 - updated hook-versions (54419ed)
 - bump version: 0.1.0dev1 -> 0.1.0dev2 (b3c8398)

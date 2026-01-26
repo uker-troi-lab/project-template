@@ -29,10 +29,8 @@ repos:
         args: [ --output-format, concise, --exit-zero ]
         verbose: true
 
-  #- repo: https://github.com/uker-troi-lab/commit_hooks.git
-  #  rev: v0.1.0
-  - repo: ../commit_hooks
-    rev: main
+  - repo: https://github.com/uker-troi-lab/commit_hooks.git
+    rev: v0.1.1
     hooks:
       - id: check-commit-msg
       - id: recreate-changelog
