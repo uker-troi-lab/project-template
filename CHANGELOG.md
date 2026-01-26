@@ -2,9 +2,9 @@
 
 ### Other changes
 
-- back to v0.0.1 for testing (dd1c920)
+- **deps**: updated latest version of hooks (146c6e2)
 
-## v0.0.2 (2026-01-16)
+## v0.1.1 (2026-01-26)
 
 ### Bug Fixes
 
@@ -14,11 +14,13 @@
 
 ### CI
 
+- removed helper hooks (f895375)
 - triger for pre-commit (f6846db)
 - fixed gitlab-ci (44ebca9)
 
 ### Documentation
 
+- updated readme (860a586)
 - updated readme (fc361fa)
 - updated readme (e162fa1)
 - updated readme (bba1b1d)
@@ -32,6 +34,15 @@
 
 ### Other changes
 
+- bump version: 0.1.0dev3 -> 0.1.1 (96dc585)
+- bump version: 0.1.0dev2 -> 0.1.0dev3 (05c8820)
+- updated hook-versions (54419ed)
+- bump version: 0.1.0dev1 -> 0.1.0dev2 (b3c8398)
+- bump version: 0.1.0 -> 0.1.0dev1 (3db20e7)
+- tryout update (1eeb49b)
+- bump version 0.0.2 -> 0.1.0 (f2c02dc)
+- prepare bump to v0.1.0 (1f40d99)
+- back to v0.0.1 for testing (085305e)
 - added execute-flag to bash scripts (ed3389e)
 - updated release.sh to integrate with pre-commit (ad536f1)
 - updated toml and pre-commit hooks (609ce87)
