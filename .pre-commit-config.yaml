@@ -30,11 +30,9 @@ repos:
         verbose: true
 
   - repo: https://github.com/uker-troi-lab/commit_hooks.git
-    rev: v0.1.0
+    rev: v0.1.1
     hooks:
       - id: check-commit-msg
-      - id: changelog-helper
       - id: recreate-changelog
-      - id: bump-version-helper
       - id: bump-version
-      - id: bump-version-finalize
+      - id: bump-version-tag-pusher

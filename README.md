@@ -16,31 +16,25 @@ To install all required project dependencies and setup pre-commit hooks, clone t
 python scripts/dev_setup.py
 ```
 
-Add packages to the `pyproject.toml` with
+Some basic `uv` commands:
 
 ```bash
+# Add packages to the `pyproject.toml` with
 uv add {package}
-```
 
-Remove packages from the `pyproject.toml` with
-
-```bash
+# Remove packages from the `pyproject.toml` with
 uv remove {package}
-```
 
-Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
-
-```bash
+# Sync package dependencies with your local environment (aka. install dependencies defined in `pyproject.toml`) with
 uv sync
-```
 
-Update the `uv.lock` file with
+# Upgrade all versions in your `pyproject.toml`
+uv sync --upgrade
 
-Remove packages from the `pyproject.toml` with
-
-```bash
+# Update the `uv.lock` file with
 uv lock
 ```
+
 
 To run linter, execute:
 
@@ -56,6 +50,7 @@ uv run ruff format --diff
 
 ## Best practices and further resources
 
+- Comes with pre-configured commit-hooks from [https://github.com/uker-troi-lab/commit_hooks.git](https://github.com/uker-troi-lab/commit_hooks.git), including commit message checking, automated changelog generation and version bumping
 - This project template uses [uv](https://github.com/astral-sh/uv) for dependency-management and python-packaging (see [features](https://docs.astral.sh/uv/getting-started/features/))
 - Regularly run code-linter and code-formatter ([ruff](https://docs.astral.sh/ruff/)). To exclude lines from the linter, add `# noqa` to the end of the line.
 - Whenever possible, format your commit messages according to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) ([commitizen](https://commitizen-tools.github.io/commitizen/) can help you with that)
