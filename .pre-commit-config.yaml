@@ -32,11 +32,11 @@ repos:
   #- repo: https://github.com/uker-troi-lab/commit_hooks.git
   #  rev: v0.1.0
   - repo: ../commit_hooks
-    rev: 8312b360727188edba5f1a7956bbfea66c0649fd
+    rev: 5598ccf3f624ee41edcf1eb51cf8abf45a9cb4bc
     hooks:
       - id: check-commit-msg
       #- id: changelog-helper
       - id: recreate-changelog
       #- id: bump-version-helper
       - id: bump-version
-      - id: bump-version-finalize
+      - id: bump-version-tag-pusher

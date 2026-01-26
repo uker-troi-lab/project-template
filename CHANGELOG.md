@@ -13,7 +13,7 @@
 
 ### Documentation
 
-- updated readme (7c92da5)
+- updated readme (860a586)
 - updated readme (fc361fa)
 - updated readme (e162fa1)
 - updated readme (bba1b1d)
@@ -27,6 +27,7 @@
 
 ### Other changes
 
+- bump version: 0.1.0 -> 0.1.0dev1 (d2c245c)
 - tryout update (1eeb49b)
 - bump version 0.0.2 -> 0.1.0 (f2c02dc)
 - prepare bump to v0.1.0 (1f40d99)
