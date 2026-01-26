@@ -28,7 +28,8 @@
 
 ### Other changes
 
-- bump version: 0.1.0dev2 -> 0.1.0dev3 (507f14e)
+- bump version: 0.1.0dev3 -> 0.1.1 (69bcf07)
+- bump version: 0.1.0dev2 -> 0.1.0dev3 (05c8820)
 - updated hook-versions (54419ed)
 - bump version: 0.1.0dev1 -> 0.1.0dev2 (b3c8398)
 - bump version: 0.1.0 -> 0.1.0dev1 (3db20e7)
