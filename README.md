@@ -56,6 +56,7 @@ uv run ruff format --diff
 
 ## Best practices and further resources
 
+- Comes with pre-configured commit-hooks from [https://github.com/uker-troi-lab/commit_hooks.git](https://github.com/uker-troi-lab/commit_hooks.git), including commit message checking, automated changelog generation and version bumping
 - This project template uses [uv](https://github.com/astral-sh/uv) for dependency-management and python-packaging (see [features](https://docs.astral.sh/uv/getting-started/features/))
 - Regularly run code-linter and code-formatter ([ruff](https://docs.astral.sh/ruff/)). To exclude lines from the linter, add `# noqa` to the end of the line.
 - Whenever possible, format your commit messages according to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) ([commitizen](https://commitizen-tools.github.io/commitizen/) can help you with that)
