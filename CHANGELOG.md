@@ -8,6 +8,7 @@
 
 ### CI
 
+- removed helper hooks (30d8b5b)
 - triger for pre-commit (f6846db)
 - fixed gitlab-ci (44ebca9)
 
@@ -27,7 +28,7 @@
 
 ### Other changes
 
-- bump version: 0.1.0 -> 0.1.0dev1 (d2c245c)
+- bump version: 0.1.0 -> 0.1.0dev1 (3db20e7)
 - tryout update (1eeb49b)
 - bump version 0.0.2 -> 0.1.0 (f2c02dc)
 - prepare bump to v0.1.0 (1f40d99)
