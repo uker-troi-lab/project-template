@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- updated commit-hooks versions (c412c29)
+- bump version: 0.1.1 -> 0.1.2 (4c2d3b0)
+- updated commit-hooks versions (60485a0)
 - updated pre-commit hooks (006fa1d)
 
 ## v0.1.1 (2026-01-26)
