@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- removed release.sh, updated hook-versions, fixed typo in project-name (5d73aae)
+- bump version: 0.1.2 -> 0.1.2dev1 (18f13df)
+- removed release.sh, updated hook-versions, fixed typo in project-name (a862202)
 
 ## v0.1.2 (2026-01-27)
 

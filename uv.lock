@@ -297,7 +297,7 @@ wheels = [
 
 [[package]]
 name = "project-template"
-version = "0.1.2"
+version = "0.1.2.dev1"
 source = { virtual = "." }
 
 [package.dev-dependencies]
