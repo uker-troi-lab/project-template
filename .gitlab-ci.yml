@@ -26,9 +26,10 @@ cache:
 
   before_script:
     - source /home/gitlab-runner/miniconda3/etc/profile.d/conda.sh
-    - conda create -n venv -y
-    - conda activate venv
+    - conda create -n venv-$CI_PROJECT_NAME -y
+    - conda activate venv-$CI_PROJECT_NAME
     - conda install pip -y
+    - export UV_PYTHON=$(which python)
     - pip install uv
     - cd $CI_PROJECT_DIR
     - uv sync --all-extras
@@ -36,9 +37,10 @@ cache:
 
   after_script:
     - source /home/gitlab-runner/miniconda3/etc/profile.d/conda.sh
-    - conda deactivate
-    - conda remove -n venv --all -y
-    - rm -rf /home/gitlab-runner/miniconda3/envs/venv
+    - ENV_PATH="$CONDA_PREFIX"
+    - conda deactivate || true
+    - conda remove -n venv-$CI_PROJECT_NAME --all -y || true
+    - rm -rf "$ENV_PATH" || true
 
 
 .unittest_template:

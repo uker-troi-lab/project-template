@@ -48,6 +48,12 @@ To run code-formatter, execute:
 uv run ruff format --diff
 ```
 
+## Git-CI hints
+
+If a non-package project should use git-ci, `--source=<project-name>` might help enabling code-coverage:  
+`uv run python -m coverage run  --source=<project-name> test_suite.py`
+
+
 ## Best practices and further resources
 
 - Comes with pre-configured commit-hooks from [https://github.com/uker-troi-lab/commit_hooks.git](https://github.com/uker-troi-lab/commit_hooks.git), including commit message checking, automated changelog generation and version bumping
