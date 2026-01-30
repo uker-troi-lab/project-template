@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- ci venv name made project specific (7a7438e)
+- bump version: 0.1.2dev1 -> 0.1.3 (9341999)
+- ci venv name made project specific (0e577e3)
 - bump version: 0.1.2 -> 0.1.2dev1 (6b1c945)
 - removed release.sh, updated hook-versions, fixed typo in project-name (a862202)
 
