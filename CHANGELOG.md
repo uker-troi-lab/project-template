@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- added license file (d09526b)
+- new coverage cmd (bd712bd)
+- added license file (d30ff7e)
 
 ## v0.1.3 (2026-01-30)
 
