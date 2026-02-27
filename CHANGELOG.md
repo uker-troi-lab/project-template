@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- new coverage cmd (bd712bd)
+- updated coverage-version (45a3e40)
+- new coverage cmd (b362763)
 - added license file (d30ff7e)
 
 ## v0.1.3 (2026-01-30)
