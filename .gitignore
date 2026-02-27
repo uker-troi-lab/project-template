@@ -16,6 +16,8 @@ __pycache__
 !/scripts/
 !/scripts/*.sh
 !/scripts/*.py
+!tests/
+!tests/*.py
 
 !LICENSE
 !README.md
