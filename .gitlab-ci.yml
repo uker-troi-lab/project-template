@@ -5,3 +5,15 @@ stages:
   - unittest
   - linter
   - formatter
+
+unittest:
+  extends: .unittest_template
+  stage: unittest
+
+linter:
+  extends: .linter_template
+  stage: linter
+
+formatter:
+  extends: .formatter_template
+  stage: formatter

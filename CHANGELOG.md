@@ -1,8 +1,12 @@
 ## Unreleased
 
+### CI
+
+- stage-definitions in repo (fae9690)
+
 ### Other changes
 
-- updated coverage-version (45a3e40)
+- updated coverage-version (bff98b5)
 - new coverage cmd (b362763)
 - added license file (d30ff7e)
 
