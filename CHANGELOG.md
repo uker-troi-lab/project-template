@@ -1,5 +1,11 @@
 ## Unreleased
 
+### Other changes
+
+- add check-dependencies ignore statements for optional dependencies (d1fe594)
+
+## v0.1.4 (2026-04-09)
+
 ### Bug Fixes
 
 - using [project.optional-dependencies] for optional dependencies in prypoject.toml template (6f5fc2d)
@@ -10,7 +16,7 @@
 
 ### Other changes
 
-- bump version: 0.1.3 -> 0.1.4 (f564ec9)
+- bump version: 0.1.3 -> 0.1.4 (b508b43)
 - Merge branch 'main' of https://github.com/uker-troi-lab/project-template (8410038)
 - updated coverage-version (bff98b5)
 - new coverage cmd (b362763)

@@ -64,3 +64,15 @@ convention = "google"
 
 [tool.ruff.format]
 docstring-code-format = true
+
+# https://pypi.org/project/check-dependencies/
+[tool.check-dependencies]
+known-missing = []
+known-extra = [
+    "coverage",
+    "ruff",
+    "pre-commit",
+    "parameterized"
+]
+[tool.check-dependencies.provides]
+# Maps package name (as declared in dependencies) -> import/module name
