@@ -18,7 +18,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[dependency-groups]
+[project.optional-dependencies]
 dev = [
     "coverage>=7.10.4",
     "ruff>=0.13.0",

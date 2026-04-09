@@ -1,8 +1,14 @@
 ## Unreleased
 
+### Bug Fixes
+
+- using [project.optional-dependencies] for optional dependencies in prypoject.toml template (f185142)
+
+## v0.1.3 (2026-01-30)
+
 ### Other changes
 
-- bump version: 0.1.2dev1 -> 0.1.3 (9341999)
+- bump version: 0.1.2dev1 -> 0.1.3 (d83582c)
 - ci venv name made project specific (0e577e3)
 - bump version: 0.1.2 -> 0.1.2dev1 (6b1c945)
 - removed release.sh, updated hook-versions, fixed typo in project-name (a862202)
