@@ -10,7 +10,8 @@
 
 ### Other changes
 
-- Merge branch 'main' of https://github.com/uker-troi-lab/project-template (e343a1d)
+- bump version: 0.1.3 -> 0.1.4 (f564ec9)
+- Merge branch 'main' of https://github.com/uker-troi-lab/project-template (8410038)
 - updated coverage-version (bff98b5)
 - new coverage cmd (b362763)
 - added license file (d30ff7e)
