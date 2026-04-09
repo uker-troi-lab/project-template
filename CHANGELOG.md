@@ -2,7 +2,18 @@
 
 ### Bug Fixes
 
-- using [project.optional-dependencies] for optional dependencies in prypoject.toml template (f185142)
+- using [project.optional-dependencies] for optional dependencies in prypoject.toml template (6f5fc2d)
+
+### CI
+
+- stage-definitions in repo (00ed45e)
+
+### Other changes
+
+- Merge branch 'main' of https://github.com/uker-troi-lab/project-template (e343a1d)
+- updated coverage-version (bff98b5)
+- new coverage cmd (b362763)
+- added license file (d30ff7e)
 
 ## v0.1.3 (2026-01-30)
 
