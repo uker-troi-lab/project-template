@@ -321,7 +321,7 @@ wheels = [
 
 [[package]]
 name = "project-template"
-version = "0.1.4"
+version = "0.1.4.dev1"
 source = { virtual = "." }
 
 [package.optional-dependencies]

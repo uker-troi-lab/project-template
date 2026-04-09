@@ -2,7 +2,8 @@
 
 ### Other changes
 
-- add check-dependencies ignore statements for optional dependencies (d1fe594)
+- bump version: 0.1.4 -> 0.1.4dev1 (6b78eb1)
+- add check-dependencies ignore statements for optional dependencies (bef162b)
 
 ## v0.1.4 (2026-04-09)
 
